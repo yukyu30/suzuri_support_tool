@@ -1,0 +1,172 @@
+.production_nolink{
+    background-color: #f7f7f7;
+    width: 24%;
+    min-width: 250px;
+    margin: 0.5%;
+    border-radius: 1em;
+}
+
+.production a{
+    text-decoration: none;
+}
+
+.production:hover{
+    opacity: 0.8;
+}
+
+.production-info{
+    margin: 1em;
+}
+.production-info_name{
+    font-family: "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+.production-info_image{
+    text-align: center;
+    margin: 5% 0%;
+}
+.production-info_image img{
+    width: 90%;
+}
+.production-info_price{
+    text-align: center;
+    font-size: 12px;
+    margin: 6px 0px 0px 0px;
+    color: #333;
+}
+.production-info_category{
+    font-size: 14px;
+    margin: 5% 5%;
+    color: rgb(148, 212, 212);
+}
+.page_nav{
+    text-align: center;
+}
+.page_nav p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.page_nav_button{
+    text-align: center;
+    background-color: #5bd0d4;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    color:#f7f7f7;
+    padding:6px;
+    text-decoration: none;
+}
+.created_image{
+    width: 90%;
+    text-align: center;
+}
+
+.download_button{
+    text-align: center;
+    margin-top:2em;
+}
+.back_button{
+    text-align: center;
+    margin:2em;
+    margin-bottom:100px;
+}
+.back_button-button{
+    width:5em;
+    margin: 2em;
+    padding: 6px 12px;
+    text-align: center;
+    background-color: #a1a1a1;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    color:#f7f7f7;
+    text-decoration: none;
+}
+.button{
+    width:5em;
+    margin: 2em;
+    padding: 6px 12px;
+    text-align: center;
+    background-color: #5bd0d4;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    color:#f7f7f7;
+    text-decoration: none;
+}
+.button:hover{
+    opacity: 0.6;
+}
+.button a{
+    text-decoration: none;
+}
+.button p{
+    color: rgb(253, 253, 253);
+}
+
+.generatedimg a{
+    text-decoration: none;
+}
+
+.generatedimg:hover{
+    opacity: 0.8;
+}
+.generatedimg-info{
+    margin: 1em;
+}
+
+.generatedimg-info_image{
+    text-align: center;
+    margin: 5% 0%;
+}
+.generatedimg-info_image img{
+    width: 90%;
+    height: auto;
+}
+.generatedimg-info_name{
+    text-align: center;
+    font-size: 16px;
+    margin: 0% 5%;
+    color: #333;
+}
+@media screen and (min-width: 641px) {
+    .generatedimg-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: left;
+        margin: 0% 1%;
+     }
+    .generatedimg{
+        background-color: #f7f7f7;
+        width: 45%;
+        min-width: 250px;
+        margin: 0.5%;
+        border-radius: 1em;
+    }
+    
+}    
+@media screen and (max-width: 640px) {
+    .generatedimg-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        
+     }
+    .generatedimg{
+        background-color: #f7f7f7;
+        margin: 2vw 0vw;
+        border-radius: 1em;
+    }
+   
+    .text_filed{
+        width: 60vw;
+    }
+    .seacrch_button{
+        width: 10vw;
+    }
+
+}

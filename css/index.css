@@ -1,0 +1,217 @@
+.production_nolink{
+    background-color: #f7f7f7;
+    width: 24%;
+    min-width: 250px;
+    margin: 0.5%;
+    border-radius: 1em;
+}
+
+.production a{
+    text-decoration: none;
+}
+
+.production:hover{
+    opacity: 0.8;
+}
+
+.production-info{
+    margin: 1em;
+}
+.production-info_name{
+    font-family: "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo, sans-serif;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+.production-info_image{
+    text-align: center;
+    margin: 5% 0%;
+}
+.production-info_image img{
+    width: 90%;
+}
+.production-info_price{
+    font-size: 16px;
+    margin: 0% 5%;
+    color: #333;
+}
+.production-info_specification{
+    font-size: 14px;
+    margin: 5% 5%;
+    color: #333;
+}
+.production-info_category{
+    font-size: 14px;
+    margin: 5% 5%;
+    color: rgb(148, 212, 212);
+}
+.page_nav{
+    text-align: center;
+}
+.page_nav p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.page_nav_button{
+    text-align: center;
+    background-color: #5bd0d4;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    color:#f7f7f7;
+    padding:6px;
+    text-decoration: none;
+}
+.choiceProduct{
+    margin-left: 0;
+}
+.connect_button{
+    text-align: center;
+    margin:50px;
+    
+}
+.button{
+    width:fit-content;
+    margin: 2em;
+    padding: 6px 12px;
+    text-align: center;
+    background-color: #5bd0d4;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    color:#f7f7f7;
+    text-decoration: none;
+  }
+  .button:hover{
+    opacity: 0.6;
+  }
+  .button a{
+    text-decoration: none;
+  }
+  .button p{
+    color: rgb(253, 253, 253);
+  }
+  .fixed{
+    position: fixed;
+  bottom: 10px; 
+  right: 10px;
+  padding: 6px 40px;
+  font-family: "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo, sans-serif;
+  -webkit-appearance: none;
+  cursor: pointer; 
+  font-size: 20px;
+  background-color: #d45b61;
+  border: solid 0px #f7f7f7;
+  color:#f7f7f7;
+  border-radius: 3px;
+  }
+  .generatedimg a{
+    text-decoration: none;
+}
+
+.generatedimg:hover{
+    opacity: 0.8;
+}
+.generatedimg-info{
+    margin: 1em;
+}
+
+.generatedimg-info_image{
+    text-align: center;
+    margin: 5% 0%;
+}
+.generatedimg-info_image img{
+    width: 90%;
+    height: auto;
+}
+.generatedimg-info_name{
+    text-align: center;
+    font-size: 16px;
+    margin: 0% 5%;
+    color: #333;
+}
+@media screen and (min-width: 641px) {
+    .generatedimg-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: left;
+        margin: 0% 1%;
+     }
+    .generatedimg{
+        background-color: #f7f7f7;
+        width: 45%;
+        min-width: 250px;
+        margin: 0.5%;
+        border-radius: 1em;
+    }
+    .production-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: left;
+        margin: 0% 1%;
+     }
+    .production{
+        background-color: #f7f7f7;
+        width: 24%;
+        min-width: 250px;
+        margin: 0.5%;
+        border-radius: 1em;
+    }
+    .production_nolink{
+        background-color: #f7f7f7;
+        width: 24%;
+        min-width: 250px;
+        margin: 0.5%;
+        border-radius: 1em;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    .production-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        
+     }
+    .production{
+        background-color: #f7f7f7;
+        margin: 2vw 0vw;
+        border-radius: 1em;
+    }
+    .production_nolink{
+        background-color: #f7f7f7;
+        margin: 2vw 0vw;
+        border-radius: 1em;
+    }
+    .text_filed{
+        width: 60vw;
+    }
+    .seacrch_button{
+        width: 10vw;
+    }
+    .generatedimg-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        
+     }
+    .generatedimg{
+        background-color: #f7f7f7;
+        margin: 2vw 0vw;
+        border-radius: 1em;
+    }
+   
+    .text_filed{
+        width: 60vw;
+    }
+    .seacrch_button{
+        width: 10vw;
+    }
+}

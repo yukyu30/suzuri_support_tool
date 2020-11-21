@@ -1,0 +1,18 @@
+.main_image{
+    text-align: center;
+}
+img{
+    width: 50vh;
+}
+.youtube_video{
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .youtube_video iframe{
+        width: 80vw;
+    }
+    img{
+        width: 80vw;
+    }
+}
