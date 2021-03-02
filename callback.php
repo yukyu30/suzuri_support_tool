@@ -33,5 +33,5 @@
     $decoded = json_decode($json,true);
     $_SESSION['user_name'] = $decoded['user']['name'];
     curl_close($curl);
-    header('Location: https://creator-support-tool.yu-9.work/');
+    header('Location: https://creator-support-tool.yukyu.net/');
 ?>

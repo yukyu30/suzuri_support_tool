@@ -3,7 +3,7 @@
     $oauth_parametrs = [
        "client_id" => 'xxxxxxxxxxxxxxxxxxxx',
         "scope" => 'read',  // 権限 read ,write
-        "redirect_uri" => 'https://creator-support-tool.yu-9.work/callback.php', // redirect_uri
+        "redirect_uri" => 'https://creator-support-tool.yuykyu.net/callback.php', // redirect_uri
         "response_type" => 'code', //response_typeは必ずcode
     ];
 ?>

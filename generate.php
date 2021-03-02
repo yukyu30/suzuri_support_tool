@@ -75,7 +75,7 @@
                         <a class="button" href="<?php echo $imagename ?>" download>保存する</a>
                 </div>
                 <div class="back_button">
-                        <a class="back_button-button" href="https://creator-support-tool.yu-9.work/">アイテム選びに戻る</a>
+                        <a class="back_button-button" href="https://creator-support-tool.yukyu.net/">アイテム選びに戻る</a>
                 </div>
                 
                 <h2>みんなが生成した画像</h2>
