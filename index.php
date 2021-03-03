@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require ("auth/suzuri_config_authorize_req.php");
+    require ("../../private/suzuri_config_authorize_req.php");
     $oauth_parametrs = http_build_query($oauth_parametrs, "", "&");
     $authorize_request_url = $authorize_prefix_url . "?" . $oauth_parametrs;
     $totalPage = 6;

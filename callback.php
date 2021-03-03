@@ -1,7 +1,7 @@
 <?php
     session_start();
-    require ("auth/suzuri_config_authorize_req.php");
-    require ("auth/suzuri_config_token_req.php");
+    require ("../../private/suzuri_config_authorize_req.php");
+    require ("../../private/suzuri_config_token_req.php");
     
     $token_req_data = http_build_query($token_parameters, "", "&");
     
